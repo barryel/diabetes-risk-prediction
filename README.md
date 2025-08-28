@@ -23,3 +23,31 @@ It applies a **Design Thinking approach** (with empathy mapping) to frame the pr
 - `requirements.txt` → list of Python libraries
 - `README.md` → project documentation
 - `.gitignore` → ignored files (cache, datasets, .DS_Store)
+
+---
+
+## 🛠️ Tools & Libraries
+- **Python**, **PySpark (pyspark.ml)**  
+- pandas, numpy, scikit-learn  
+- matplotlib / seaborn  
+- Jupyter Notebook (or Databricks)
+
+---
+
+## ▶️ How to Run Locally
+# 1. Clone the repo
+git clone https://github.com/barryel/diabetes-risk-prediction.git
+cd diabetes-risk-prediction
+
+# 2. Create a virtual environment (optional but recommended)
+python3 -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run Jupyter Notebook
+jupyter notebook notebooks/diabetes.ipynb
+
+
